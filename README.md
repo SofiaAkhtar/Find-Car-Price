@@ -34,7 +34,7 @@ The machine learning model used for prediction is trained on the provided datase
 
 - **`dataset/`:** Contains the dataset used for training and testing. Refer to the `data/README.md` for instructions on obtaining the dataset.
 - **`source`:** Source code files for the machine learning model and prediction script.
-- **'doc':** Contains the documentation on the project.
+- **`doc`:** Contains the documentation on the project.
 - **`requirements.txt`:** List of Python dependencies.
 
 ## Contributors
