@@ -6,8 +6,7 @@ This project focuses on predicting the selling price of used cars using machine 
 
 ## Dataset
 
-The dataset used for training and testing the model is not provided in this README due to its size. You can download the dataset from [this link](provide_dataset_link) or follow the instructions in the `data/README.md` file.
-
+The dataset used for training and testing the model is not provided in this README due to its size. You can get the dataset in the dataset file.
 ## Model Details
 
 The machine learning model used for prediction is trained on the provided dataset. Key features such as Selling_Price, Present_Price, Kms_Driven, etc., play a crucial role in predicting the selling price of a used car.
@@ -33,13 +32,13 @@ The machine learning model used for prediction is trained on the provided datase
 
 ## Project Structure
 
-- **`data/`:** Contains the dataset used for training and testing. Refer to the `data/README.md` for instructions on obtaining the dataset.
-- **`models/`:** Stores the trained machine learning models.
-- **`src/`:** Source code files for the machine learning model and prediction script.
+- **`dataset/`:** Contains the dataset used for training and testing. Refer to the `data/README.md` for instructions on obtaining the dataset.
+- **`source`:** Source code files for the machine learning model and prediction script.
+- **'doc':** Contains the documentation on the project.
 - **`requirements.txt`:** List of Python dependencies.
 
-## Contributing
+## Contributors
 
-If you'd like to contribute to the project, feel free to submit issues or pull requests. Please follow the project's coding standards and guidelines.
+Sofia Akhtar
 
 
