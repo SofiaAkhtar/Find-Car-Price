@@ -1,44 +1,48 @@
 # Car Price Prediction Model
-
 ## Overview
-
-This project focuses on predicting the selling price of used cars using machine learning. The model takes various input features related to the car's details and leverages a predictive model to estimate the selling price. The inputs include Selling_Price, Present_Price, Kms_Driven, Owner, no_year, Fuel_Type_Diesel, Fuel_Type_Petrol, Seller_Type_Individual, and Transmission_Manual.
+This project aims to predict the selling price of used cars using machine learning techniques. By taking various input features related to the car's details, the model estimates the selling price accurately. Key input features include Present_Price, Kms_Driven, Owner, Year, Fuel_Type, Seller_Type, and Transmission.
 
 ## Dataset
+The dataset used for training and testing the model is not included in this README due to its size. You can obtain the dataset from the dataset file provided in the dataset/ directory.
 
-The dataset used for training and testing the model is not provided in this README due to its size. You can get the dataset in the dataset file.
 ## Model Details
+The predictive model is trained on a comprehensive dataset of used car prices. Important features that influence the prediction include:
 
-The machine learning model used for prediction is trained on the provided dataset. Key features such as Selling_Price, Present_Price, Kms_Driven, etc., play a crucial role in predicting the selling price of a used car.
-
+- Present_Price: Current price of the car.
+- Kms_Driven: Total kilometers driven by the car.
+- Owner: Number of previous owners.
+- Year: Age of the car (calculated as the difference between the current year and the year of manufacture).
+- Fuel_Type: Type of fuel used by the car (Petrol/Diesel).
+- Seller_Type: Whether the seller is an individual or a dealer.
+- Transmission: Type of transmission (Manual/Automatic).
 ## How to Use
+1. Install Dependencies:
 
-1. **Install Dependencies:**
-   - Make sure you have Python installed on your system.
-   - Install the required Python packages using the following command:
+- Ensure you have Python installed on your system.
 
-     ```bash
-     pip install -r requirements.txt
-     ```
+- Install the required Python packages by running:
 
-2. **Run the Prediction:**
-   - Execute the prediction script to estimate the selling price of a car based on the trained model:
+```bash
 
-     ```bash
-     python predict.py
-     ```
+pip install -r requirements.txt
+```
+2. Run the Flask Application:
 
-   - Follow the on-screen instructions to input the required details of the car.
+- Start the Flask web application to interact with the prediction model:
+
+```bash
+
+python app.py
+```
+
+- Enter the required car details in the web form and submit to get the predicted selling price.
 
 ## Project Structure
-
-- **`dataset/`:** Contains the dataset used for training and testing. Refer to the `data/README.md` for instructions on obtaining the dataset.
-- **`source`:** Source code files for the machine learning model and prediction script.
-- **`doc`:** Contains the documentation on the project.
-- **`requirements.txt`:** List of Python dependencies.
-
+- dataset/: Contains the dataset used for training and testing. Refer to the dataset/README.md for instructions on obtaining the dataset.
+- source/: Source code files for the machine learning model and the prediction script.
+- templates/: HTML templates for the Flask web application.
+- static/: Static files such as CSS and JavaScript for the web application.
+- app.py: Flask application script.
+- requirements.txt: List of Python dependencies.
 ## Contributors
-
 Sofia Akhtar
-
-
